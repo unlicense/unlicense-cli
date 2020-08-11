@@ -1,7 +1,7 @@
 # Unlicense Command-Line Interface (CLI)
 
 [![Project license](https://img.shields.io/badge/license-Public%20Domain-blue.svg)](https://unlicense.org)
-[![Ruby compatibility](https://img.shields.io/badge/ruby-2.7%2B-blue)](https://rubygems.org/gems/unlicense)
+[![Ruby compatibility](https://img.shields.io/badge/ruby-2.4%2B-blue)](https://rubygems.org/gems/unlicense)
 [![RubyGems gem](https://img.shields.io/gem/v/unlicense.svg)](https://rubygems.org/gems/unlicense)
 
 A simple `unlicense` script that prints out the text of the Unlicense template.
@@ -13,7 +13,7 @@ A simple `unlicense` script that prints out the text of the Unlicense template.
 
 ## Prerequisites
 
-- [Ruby](https://www.ruby-lang.org/en/) 2.7+
+- [Ruby](https://www.ruby-lang.org/en/) 2.4+
 
 ## Installation
 

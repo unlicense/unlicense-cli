@@ -27,8 +27,8 @@ Gem::Specification.new do |gem|
   gem.extensions         = %w()
   gem.test_files         = %w()
 
-  gem.required_ruby_version      = '>= 2.7.0'
-  gem.required_rubygems_version  = '>= 3.1.2' # Ruby 2.7.0
+  gem.required_ruby_version      = '>= 2.4.0'
+  gem.required_rubygems_version  = '>= 2.6.8' # Ruby 2.4.0
   gem.requirements               = []
   gem.add_development_dependency 'rake',      '>= 13'
   gem.add_development_dependency 'rspec',     '>= 3.9'
