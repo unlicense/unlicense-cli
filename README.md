@@ -4,7 +4,8 @@
 [![Ruby compatibility](https://img.shields.io/badge/ruby-2.4%2B-blue)](https://rubygems.org/gems/unlicense)
 [![RubyGems gem](https://img.shields.io/gem/v/unlicense.svg)](https://rubygems.org/gems/unlicense)
 
-A simple `unlicense` script that prints out the text of the Unlicense template.
+A simple `unlicense` script that prints out the text of the [Unlicense]
+template.
 
 ## Features
 
@@ -13,7 +14,7 @@ A simple `unlicense` script that prints out the text of the Unlicense template.
 
 ## Prerequisites
 
-- [Ruby](https://www.ruby-lang.org/en/) 2.4+
+- [Ruby] 2.4+
 
 ## Installation
 
@@ -30,11 +31,9 @@ After installation, test running the tool as follows:
 $ unlicense
 ```
 
-In case the command wasn't found after installation, you likely need to add
-your [RubyGems] binary path to your `PATH` environment variable.
-
-[Ruby]:     https://www.ruby-lang.org/en/
-[RubyGems]: https://guides.rubygems.org/faqs/
+In case the command wasn't found after installation, you likely need to
+configure your `PATH` environment variable to include your [RubyGems] program
+path.
 
 ## Reference (CLI)
 
@@ -81,7 +80,7 @@ $ unlicense | wc -c
 1212
 ```
 
-### Computing the MD-5 hash of the template
+### Computing the MD5 hash of the template
 
 ```
 $ unlicense | openssl dgst -md5
@@ -108,3 +107,7 @@ b5065838cbac452dfc855ba6e6e031481ad2c68406f70d21ead9321374653e6c
 $ unlicense | openssl dgst -sha512
 1bb7ac541515a5950edd07c9f743e3e60ff7c6dabde874c93b452de9cf8d5e7e3a216f318553ab16a234e79d29d319d6c1da37aa63ff4f09860614ec28a1f0b8
 ```
+
+[Ruby]:      https://www.ruby-lang.org/en/
+[RubyGems]:  https://guides.rubygems.org/faqs/
+[Unlicense]: https://unlicense.org
