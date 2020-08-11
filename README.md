@@ -7,6 +7,8 @@
 A simple `unlicense` script that prints out the text of the [Unlicense]
 template.
 
+[![Usage](etc/usage.gif)](https://asciinema.org/a/JBUst9rBvpnyTjVR2IkBzZg4r)
+
 ## Features
 
 - Outputs the [Unlicense template text](https://unlicense.org/UNLICENSE)
