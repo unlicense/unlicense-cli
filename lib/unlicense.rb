@@ -5,3 +5,4 @@
 module Unlicense; end
 
 require_relative 'unlicense/version'
+require_relative 'unlicense/template'

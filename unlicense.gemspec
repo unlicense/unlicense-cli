@@ -22,7 +22,7 @@ Gem::Specification.new do |gem|
   gem.platform           = Gem::Platform::RUBY
   gem.files              = %w(AUTHORS CHANGES.md CREDITS.md README.md UNLICENSE VERSION) + Dir.glob('lib/**/*.rb')
   gem.bindir             = %q(bin)
-  gem.executables        = %w()
+  gem.executables        = %w(unlicense)
   gem.require_paths      = %w(lib)
   gem.extensions         = %w()
   gem.test_files         = %w()
